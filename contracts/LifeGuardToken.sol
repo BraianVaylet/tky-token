@@ -4,7 +4,7 @@ pragma solidity ^0.8.9;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "hardhat/console.sol";
 
-contract Token is ERC20("ThankYou Token", "TKY") {
+contract LifeGuardToken is ERC20("Lifeguard Token", "LIGU") {
     uint cotizacionTokenEth;
 
     constructor(uint cotizacion) {
